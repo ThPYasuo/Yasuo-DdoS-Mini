@@ -1,2 +1,3 @@
-
+https://github.com/ThPYasuo/Yasuo-DdoS-Mini.git
+sh install.sh
 python3 Yasuo.py
