@@ -1,3 +1,4 @@
 git clone https://github.com/ThPYasuo/Yasuo-DdoS-Mini.git
+cd Yasuo-DdoS-Mini
 sh install.sh
 python3 Yasuo.py
